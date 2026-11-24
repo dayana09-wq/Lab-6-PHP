@@ -8,28 +8,12 @@ function calculateArea($length, $width) {
 }
 
 
-$length = 10;
-$width = 5;
-
+$length = 4;
+$width = 2;
 
 $result = calculateArea($length, $width);
 
+
+echo "The area of a rectangle with a length of $length and a width of $width is $result";
+
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Lab 6 Q3</title>
-</head>
-<body>
-
-<h2>Calculate Rectangle Area</h2>
-
-<p>Length: <?php echo $length; ?></p>
-
-<p>Width: <?php echo $width; ?></p>
-
-<p>Area: <?php echo $result; ?></p>
-
-</body>
-</html>
